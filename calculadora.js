@@ -15,7 +15,7 @@ var start = document.getElementById('start');
 var searchStart = new google.maps.places.SearchBox(start);
 var end = document.getElementById('end');
 var searchEnd = new google.maps.places.SearchBox(end);
-var valorKM = 3;
+var valorKM = 3.5;
 var detail = document.getElementById('detail');
 var mensagem = document.getElementById('mensagem');
 var googlemapsStart = document.getElementById('button-input');
@@ -132,3 +132,4 @@ $(function() {
             $('.opaque-navbar').removeClass('opaque');
         }
     });
+
